@@ -1,0 +1,72 @@
+@import "_variables.scss";
+@import "_mqueries.scss";
+
+@mixin border-radius ($radius: 22px) {
+	border-radius: $radius;
+}
+
+.container-fluid{
+	margin: 0 auto;
+}
+
+body, ul, p, h2, h3, h4 {
+	margin: 0;
+	font-family: $bodyFont;
+	text-align: center;
+}
+
+body {
+	background-color: $defaultColor;
+}
+
+nav {
+	background-color: $borderColor;
+	height: 65px;
+	border-bottom: 1px $borderColor;
+	box-shadow: 0px 2px 8px $boxShadow;
+	margin-top: 2px;
+
+	ul {
+
+		li {
+			display: inline;
+			padding: 20px 20px 0 0; 
+			text-transform: uppercase;
+			a {
+				text-decoration: none;
+				color: $defaultColor;
+				font-size: 13px;
+				font-weight: 700;
+				padding: 0 15px;
+				transition: opacity 500ms ease-out;
+				z-index: 9999;	
+			}
+		}
+	}
+}
+
+
+
+.navbar-brand {
+	text-decoration: none;
+	font: italic bold 58px/30px $bodyFont;
+	color: $defaultColor;
+	height: 60px;
+	padding: 11px 15px;
+}
+
+#carousel-example-generic {
+	min-height: 200px;
+	width: 100%;
+}
+
+/*===============================================
+carousel container-fluid
+===============================================*/
+
+.carousel-inner {
+	height: auto;
+	width: 100%;
+}
+
+/*Media Queries*/

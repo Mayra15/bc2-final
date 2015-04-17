@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <nav>
+      <div class="col-sm-4 col-xs-12">
+        <a class="navbar-brand" href="#">TEXTBOOK</a>
+      </div>
+      <div class="col-sm-8 col-xs-12">
+        <ul class="menu">
+          <li><a href="#How">How It Works</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Learn">Learn More</a></li>
+        </ul>
+      </div>
+      
+    </nav>
+  </div>
+</div>
+  
+
+<div class="container-fluid">
+  <div class="row">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      </ol>
+
+    <!-- Wrapper for slides -->
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+           <img class="img-responsive" src="img/books2-cropped.jpg" alt="...">
+          <div class="carousel-caption">
+            <h1>Need Affordable Textbooks?</h1>
+            <p>We can help.</p>
+            <button type="button" class="btn btn-info">Try it Now</button>
+          </div><!-- carousel caption -->
+        </div><!-- item active -->
+        <div class="item">
+          <img class"img-responsive" src="img/books2-cropped.jpg" alt="...">
+          <div class="carousel-caption">
+            <h1>Tell Us What Books You Need</h1>
+            <p> And We'll take from there.</p>
+            <button type="button" class="btn btn-info">Try it Now</button>
+          </div> 
+        </div>
+      </div><!-- carousel inner -->
+      
+       <!-- Controls -->
+       <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+       </a>
+       <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+       </a>
+     </div><!-- controls --> 
+    </div><!--carousel end -->
+  </div>
+</div>
+
+
+<div class="container-fluid"><br />
+    <div id="How">
+     <div class="row">
+      <h1>How It Works</h1><br />
+      <div class="col-md-12">
+    </div>
+
+      <div class="row">
+        <div class="col-md-4 feat">
+          <i class="fa fa-question-circle fa-4x"></i>
+          <h3>Type In The Books You Need</h3>
+            <h4> We'll Compare Prices.</h4>
+        </div>
+
+        <div class="col-md-4 feat">
+          <i class="fa fa-search fa-4x"></i>
+          <h3>Let Us Find The Cheapest Books</h3>
+            <h4>We'll Save You The Legwork.</h4>
+        </div>
+
+        <div class="col-md-4 feat">
+          <i class="fa fa-thumbs-o-up fa-4x"></i>
+          <h3>Get Your Books</h3>
+          <h4> Get Your Books In Two Days.</h4>
+        </div>
+      </div> <!-- end row -->
+    </div>
+  </div>
+<br>
+    <div id="Learn">
+    <div  class="row">
+          <h1>Learn More</h1><br />
+          <div class="col-md-4 feat-1">
+            <i class="fa fa-cart-arrow-down fa-4x"></i>
+            <h3>Compare Prices</h3>
+            <h4>Search thousands of bookstores in one spot.</h4>
+          </div>
+    
+          <div class="col-md-4 feat-1">
+            <i class="fa fa-map-marker fa-4x"></i>
+            <h3>Get books delivered to you anywhere</h3>
+            <h4>For one flat rate</h4>
+          </div>
+
+          <div class="col-md-4 feat-1">
+            <i class="fa fa-money fa-4x"></i>
+            <h3>Get the cheapest books all in one place</h3>
+            <h4>All in quality condition</h4>
+          </div>
+    </div>
+<br>
+  <div id="Contact">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Questions? Comments? Contact Us!</h3>
+          <!-- Do not change the code! -->
+          <a id="foxyform_embed_link_637049" href="http://www.foxyform.com/">foxyform</a>
+          <script type="text/javascript">
+          (function(d, t){
+             var g = d.createElement(t),
+                 s = d.getElementsByTagName(t)[0];
+             g.src = "http://www.foxyform.com/js.php?id=637049&sec_hash=dcd62f981ff&width=350px";
+             s.parentNode.insertBefore(g, s);
+          }(document, "script"));
+          </script>
+<!-- Do not change the code! -->
+        </div>
+      </div>
+      </div>
+  </div> <!-- ends container-fluid -->
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript">$(function() {
+  $('nav li a').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<footer> <p> Copyright &copy; 2015, Fresno, CA 93701 </p></footer>
+</body>
+</html>

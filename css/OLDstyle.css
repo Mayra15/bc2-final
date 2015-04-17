@@ -1,0 +1,199 @@
+
+body, ul, p, h2, h3, h4 {
+	margin: 0;
+	font-family: "open sans" 400;
+	text-align: center;
+	
+}
+.container-fluid{
+	margin: 0 auto;
+}
+h1{
+	margin: 0;
+	font-size: 45px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+body{
+	background-color: white;
+}
+nav {
+	background-color: black;
+	height: 65px;
+	border-bottom: 1px black;
+	box-shadow: 0px 2px 8px gray;
+	margin-top: 2px;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 0 15px;
+	transition: opactcity 500ms ease-out;
+	z-index: 9999;
+}
+nav ul li {
+	display: inline;
+	float: right;
+	padding: 20px 20px 0 0; 
+	text-transform: uppercase;
+}
+/*.row-1{
+	display: inline-block;
+	color: blue;
+	padding-top: 100px;
+	padding-bottom: 168px;
+	width: 100%;
+}
+.row-2{
+	display: inline-block;*/
+
+}
+.fa-4x{
+	font-size: 3em;
+}
+/*.row-3{
+	display: inline;
+	padding-top: 200px;*/
+
+}
+.feat-1 {
+	padding-top: 150px;
+	display: inline-block;
+
+}
+.row-1{
+	display: inline-block;
+	padding-top: 100px;
+}
+
+.row {
+	display: inline-block;
+	padding-top: 50px;
+	padding-bottom: 84px;
+	width: 100%;
+
+}
+.carousel-caption {
+	padding-bottom: 380px;
+}
+
+.carousel-caption h1, p {
+	color: gray;
+}
+.carousel-control.right, .carousel-control.left{
+	top: 67px;
+	background-image: none;
+}
+.item{
+	max-height: 700px;
+}
+.navbar-brand{
+	font: italic bold 58px/30px "open sans" arial, sans-serif;
+	color: white;
+	height: 61px;
+	padding: 11px 15px;
+}
+#Learn {
+	background-color: #47DDBF;
+	border-radius: 22px;
+	color: white;
+}
+
+
+
+
+#Learn h3, h4 {
+	color: black;
+}
+
+#Contact {
+	background-color: #efefef;
+	border-radius: 22px; 
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#Contact h3{
+	margin-bottom: 30px;
+}
+body, ul, p, h1, h2, h3, h4 {
+	margin: 0;
+	font-family: "open sans" 400;
+	text-align: center;
+	
+}
+
+body{
+	background-color: white;
+}
+nav {
+	background-color: black;
+	height: 65px;
+	border-bottom: 1px black;
+	box-shadow: 0px 2px 8px gray;
+	margin-top: 2px;
+}
+nav a {
+text-decoration: none;
+color: white;
+font-size: 13px;
+font-weight: 700;
+padding: 0 15px;
+transition: opactcity 500ms ease-out;
+}
+nav ul li {
+	display: inline;
+	float: right;
+	padding: 20px 20px 0 0; 
+	text-transform: uppercase;
+}
+/*.row-1{
+	display: inline-block;
+	color: blue;
+	padding-top: 100px;
+	padding-bottom: 168px;
+	width: 100%;
+}
+.row-2{
+	display: inline-block;*/
+
+}
+.fa-4x{
+	font-size: 3em;
+}
+/*.row-3{
+	display: inline;
+	padding-top: 200px;*/
+
+}
+.feat-1 {
+	padding-top: 150px;
+	display: inline-block;
+
+}
+
+.row {
+	display: inline-block;
+	padding-top: 100px;
+	padding-bottom: 168px;
+	width: 100%;
+
+}
+.carousel-caption {
+	padding-bottom: 380px;
+}
+
+.carousel-caption h1, p {
+	color: gray;
+}
+.item{
+	max-height: 700px;
+}
+.navbar-brand{
+	font: italic bold 58px/30px "open sans" arial, sans-serif;
+	color: white;
+	height: 61px;
+	padding: 11px 15px;
+}
